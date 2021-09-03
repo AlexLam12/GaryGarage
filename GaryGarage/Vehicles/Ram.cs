@@ -11,5 +11,9 @@ namespace GaryGarage
         {
             // method definition omitted
         }
+          public override void Drive()
+        {
+            Console.WriteLine($"The {MainColor} Ram drives past. Zooom!");
+        }
     }
 }

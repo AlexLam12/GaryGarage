@@ -13,7 +13,12 @@ namespace GaryGarage
         }
         public override void Drive()
         {
-            Console.WriteLine("Zooom");
+            Console.WriteLine($"The {MainColor} Cessna drives past. Zooom!");
+        }
+
+        public void Turn()
+        {
+            Console.WriteLine($"The cool car turn cooly");
         }
     }
 }

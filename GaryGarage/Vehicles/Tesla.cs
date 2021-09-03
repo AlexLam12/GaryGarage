@@ -11,5 +11,13 @@ namespace GaryGarage
         {
             // method definition omitted
         }
+          public override void Drive()
+        {
+            Console.WriteLine($"The {MainColor} Tesla drives past. Zooom!");
+        }
+        public void Turn()
+        {
+            Console.WriteLine($"The Tesla squeels aroung a right turn.");
+        }
     }
 }
